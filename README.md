@@ -32,7 +32,11 @@ This script hides and protects spreadsheet ranges that fall outside the current 
 This is my table set up for better visualization:
 <img width="1227" alt="HideAndProtectRangesScheme" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/9fa26f5d-0043-4b3d-aa3e-fda4329084d9">
 
----
+To run this code automatically every week, you must set a trigger. You can do this easily using the Google Apps Script web interface and configure it based on your flow. Below are the screenshots of how I configured my trigger:
 
+<img width="1000" alt="Screen Shot 2024-06-22 at 4 33 40 PM" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/91582563-b1b6-40d1-8757-e1cdb7716b62">
+<img width="726" alt="Screen Shot 2024-06-22 at 4 34 07 PM" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/1e7d0b68-af5d-4528-b457-919f104663f7">
+
+---
 Feel free to explore and use these scripts. I hope you find them helpful. Since I'm still learning, I welcome any recommendations or feedback you may have!
 
