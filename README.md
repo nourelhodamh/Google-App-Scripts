@@ -37,6 +37,32 @@ To run this code automatically every week, you must set a trigger. You can do th
 <img width="1000" alt="Screen Shot 2024-06-22 at 4 33 40 PM" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/91582563-b1b6-40d1-8757-e1cdb7716b62">
 <img width="726" alt="Screen Shot 2024-06-22 at 4 34 07 PM" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/1e7d0b68-af5d-4528-b457-919f104663f7">
 
+
+### 3. Automated Weekly Data Transfer
+
+This Google Apps Script automates the process of copying data from one Google Sheets document to another based on the current date. The script is designed to run on a specific day of the week (currently set to Sunday) and copy data from a specified range in the source sheet to the destination sheet.
+
+### Features
+- **Automated Data Transfer**: Automatically copies data from a source Google Sheet to a destination Google Sheet.
+- **Date-Based Logic**: Transfers data based on the current date, ensuring the right data is copied at the right time.
+- **Customizable Day of Execution**: Set the script to run on a specific day of the week.
+
+
+### Steps
+1. **Open Google Sheets**: Open the source and destination Google Sheets.
+2. **Create a New Google Apps Script Project**:
+   - In the source Google Sheet, click on `Extensions > Apps Script`.
+   - Delete any existing code in the script editor and paste the provided script.
+3. **Modify the Script**:
+   - Replace the `destinationFileURL` and `originalSourceFileURL` variables with the URLs of your destination and source Google Sheets.
+   - Update the `sourceDateRange` and sheet names as needed.
+4. **Set Up Triggers**:
+   - In the script editor, click on the clock icon (Triggers) in the left sidebar.
+   - Click on `+ Add Trigger`.
+   - Set the function to `main`, deployment to `Head`, and the event source to `Time-driven`.
+   - Choose `Week timer` and select `Sunday` or your desired day.
+
+
 ---
 Feel free to explore and use these scripts. I hope you find them helpful. Since I'm still learning, I welcome any recommendations or feedback you may have!
 
