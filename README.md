@@ -34,9 +34,11 @@ This is an automated message, please do not reply to it
 ### 2. hideAndProtectRangesBasedOnWeeks
 
 This script hides and protects spreadsheet ranges that fall outside the current week. It ensures that only the data for the current week is visible and editable, protecting past and future weeks.
+
 This is my table set up for better visualization:
 
 <img width="1227" alt="HideAndProtectRangesScheme" src="https://github.com/nourelhodamh/Google-App-Scripts/assets/24853068/9fa26f5d-0043-4b3d-aa3e-fda4329084d9">
+
 
 To run this code automatically every week, you must set a trigger. You can do this easily using the Google Apps Script web interface and configure it based on your flow. Below are the screenshots of how I configured my trigger:
 
